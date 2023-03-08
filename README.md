@@ -6,17 +6,17 @@ All comments are welcome at luc.duponcheel[at]gmail.com.
 
 ## Introduction
 
-In lesson008 we have specified and, for now, trivially implemented the `ParallelComposition` program concept and defined
+In lesson008 we have specified and, for then, trivially implemented the `ParallelComposition` program concept and defined
 `parallelFibonacci` using it.
 
 ## Content
 
 We are going to implement`ParallelComposition` in terms of type `Reactive` using the `Akka` actor library.
 
-First we refactor the `Program` implementation in term of `Computation`, function level `Product` and function level
+First we refactor the `Program` implementation in terms of `Computation`, function level `Product` and function level
 `Sum` to be a `trait` instead of a `given`.
 
-### Refactoring `Program` implementation in term of `Computation`, function level `Product` and function level `Sum`.
+### Refactoring `Program` implementation in terms of `Computation`, function level `Product` and function level `Sum`.
 
 ```scala
 package psbp.implementation.program
