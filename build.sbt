@@ -8,7 +8,7 @@ lazy val root = project
 
     name := "psbp009",
 
-    version := "0.0.1-SNAPSHOT",,
+    version := "0.0.1-SNAPSHOT",
 
     scalaVersion := scala_version,
 
